@@ -1,0 +1,90 @@
+/*  Header */
+
+.header__container {
+    position: sticky;
+    -webkit-position: sticky;
+    top: 0;
+    display: grid;
+    width: 70vw;
+    padding: 0 15% 0 15%;
+
+    grid-template-columns: 8% 1fr 1fr;
+    grid-template-rows: 1fr;
+
+    background-color: #30201c;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header__nav {
+    display: flex;
+    width: 100%;
+
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+.header__logo-link {
+
+    width: 75%;
+    justify-self: center;
+
+}
+
+.header__logo-img {
+
+    width: 100%;
+}
+
+.header__h1 {
+    color: #ebd1a0;
+    letter-spacing: 3px;
+    text-decoration: none;
+
+    padding-left: 10%;
+}
+
+.header__link {
+    margin: 5% 1% 5% 1%;
+    text-align: center;
+    text-wrap: nowrap;
+
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 500;
+    transition: width 1s;
+
+    color: #ebd1a0;
+
+}
+
+.header__nav a:after {
+    background-color: #ebd1a0;
+    /* Цвет линии при наведении на нее курсора мыши */
+    display: block;
+    content: "";
+    height: 2px;
+    /* Высота линии */
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+
+.header__link:hover:after,
+.header__link:focus:after {
+    width: 100%;
+}
+
+.header__link:hover {
+    letter-spacing: 1px;
+}
+
+.header__link:hover {
+    transform: scale(1.03);
+}
