@@ -45,10 +45,10 @@
                 </form>
                 <div class="container-pay">
                     <h2>Привязка карты</h2>
-                    <form name="form-card" class="form-pay" action="POST">
+                    <form name="form-card" class="form-pay" action="">
                         <div class="input-container input-container-first">
                             <h4>Номер карты</h4>
-                            <input type="number" name="cardNumber" id="cardNumber" required
+                            <input type="number" class="credit" name="cardNumber" pattern="^(5[1-5][0-9]{14}|2(22[1-9][0-9]{12}|2[3-9][0-9]{13}|[3-6][0-9]{14}|7[0-1][0-9]{13}|720[0-9]{12}))$" id="cardNumber" required
                                 placeholder="Введите номер карты">
                         </div>
                         <div class="input-container input-container-second">
@@ -64,7 +64,7 @@
                         </div>
                         <div class="input-container cashInput  ">
                             <h4>Сумма пожертвования, $</h4>
-                            <input type="number" name="cash" required id="cash" placeholder="Введите сумму">
+                            <input type="number" name="cash" required id="cash" min="1" placeholder="Введите сумму">
                         </div>
                         <button class="submit" id="submitCard" type="submit">Привязать карту</button>
                     </form>
