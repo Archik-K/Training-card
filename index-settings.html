@@ -25,7 +25,8 @@
                 <form name="form-info" class="form-info" action="">
                     <div class="input-container">
                         <h4>Ваше имя</h4>
-                        <input type="text"  class="firstName" name="firstname" required id="userfirstname" placeholder="Екатерина">
+                        <input type="text" class="firstName" name="firstname" required id="userfirstname"
+                            placeholder="Екатерина">
                     </div>
                     <div class="input-container">
                         <h4>Ваша фамилия</h4>
@@ -34,14 +35,13 @@
                     </div>
                     <div class="input-container">
                         <h4>Электронная почта</h4>
-                        <input type="email" name="email" required id="email" 
-                            placeholder="developer@gmail.com">
+                        <input type="email" name="email" required id="email" placeholder="developer@gmail.com">
                     </div>
                     <div class="input-container">
                         <h4>Номер телефона</h4>
                         <input type="number" name="phone" required id="mobilePhone" placeholder="297775544">
                     </div>
-                    <button class=" form-button "  type="submit">Изменить данные</button>
+                    <button class=" form-button " type="submit">Изменить данные</button>
                 </form>
                 <div class="container-pay">
                     <h2>Привязка карты</h2>
@@ -49,25 +49,26 @@
                         <div class="input-container input-container-first">
                             <h4>Номер карты</h4>
                             <input type="number" name="cardNumber" id="cardNumber" required
-                                placeholder="Введите номер карты" minlength="16" maxlength="16">
+                                placeholder="Введите номер карты">
                         </div>
                         <div class="input-container input-container-second">
                             <h4>Срок действия</h4>
-                            <input type="number" name="cardLast" required minlength="4"id="cardLast"
+                            <input type="number" name="cardLast" required minlength="4" id="cardLast"
                                 placeholder="Введите срок действия карты">
                         </div>
                         <div class="input-container input-container-third">
                             <h4>CVC-код</h4>
 
-                            <input type="number" name="cardCode" minlength="3" required id="cardCode" placeholder="Введите СVC-код">
+                            <input type="number" name="cardCode" min="100" max="999" required id="cardCode"
+                                placeholder="Введите СVC-код">
                         </div>
                         <div class="input-container cashInput  ">
                             <h4>Сумма пожертвования, $</h4>
                             <input type="number" name="cash" required id="cash" placeholder="Введите сумму">
                         </div>
-                        <button class="submit" id="submitCard"  type="submit">Привязать карту</button>
+                        <button class="submit" id="submitCard" type="submit">Привязать карту</button>
                     </form>
-                    <span class="hiddenSpan" >Спасибо за ваше участие в нашем социально-значимом проекте!</span>
+                    <span class="hiddenSpan">Спасибо за ваше участие в нашем социально-значимом проекте!</span>
                 </div>
             </div>
         </div>
