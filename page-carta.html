@@ -10,37 +10,34 @@
     <link rel="stylesheet" href="style.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-    <link rel="stylesheet" href="assets/styles/styles-header.css" />
+    <link rel="stylesheet" href="./assets/styles/styles-header.css" />
     <link rel="stylesheet" href="./assets/normalize.css" />
-    <link rel="stylesheet" href="/assets/footer.css" />
-    <link rel="stylesheet" href="/assets/styles/main_carta.css" />
-    <link rel="stylesheet" href="/assets/styles/modal.css" />
+    <link rel="stylesheet" href="./assets/footer.css" />
+    <link rel="stylesheet" href="./assets/styles/main_carta.css" />
+    <link rel="stylesheet" href="./assets/styles/modal.css" />
 
     <title>Выбор курса</title>
 </head>
 
 <body>
     <header class="header__container">
-        <a href="#" class="header__logo-link">
+        <a href="./navigation.html" class="header__logo-link">
             <img class="header__logo-img" src="./assets/images/logo.png" />
         </a>
-        <a href="#" class="header__h1">
+        <a href="./navigation.html" class="header__h1">
             <h1 class="header__h1">STUDY FOR SAVE</h1>
         </a>
         <nav class="header__nav">
             <a href="#" class="header__link">О нас</a>
-            <a href="#" class="header__link">Настройки</a>
+            <a href="./index-settings.html" class="header__link">Настройки</a>
             <a href="#" class="header__link">Техподдержка</a>
         </nav>
     </header>
-
     <main class="main main_carta_container">
         <div class="main_carta">
-
         </div>
         <div class="happy"></div>
     </main>
-
     <div id="modal" class="modal">
         <div class="modal-content">
             <span class="close" id="closeModalBtn">&times;</span>
@@ -49,23 +46,22 @@
                 <ul>
                     <li>
                         <input type="checkbox" id="tarea-1" />
-                        <label for="tarea-1">
-                            <h2>Сверстать header<span> Настроить его адаптивность </span></h2>
+                        <label class="label_1"  for="tarea-1">
+                            <h2 class="h2_title">Сверстать header</h2><span> Настроить его адаптивность </span>
                         </label>
                     </li>
-
                     <li>
                         <input type="checkbox" id="tarea-2" checked />
-                        <label for="tarea-2">
-                            <h2>Научиться вставлять гифки на сайт<span>Найти две гифки и потренироваться</span></h2>
+                        <label class="label_2" for="tarea-2">
+                            <h2 class="h2_title">Научиться вставлять гифки на сайт</h2><span>Найти две гифки и потренироваться</span>
                         </label>
                     </li>
                     <li>
                         <input type="checkbox" id="tarea-3" />
-                        <label for="tarea-3">
-                            <h2>Ответить на вопросы<span> Что такое html?
+                        <label class="label_3" for="tarea-3">
+                            <h2 class="h2_title">Ответить на вопросы</h2><span> Что такое html?
                                     Что такое css?
-                                </span></h2>
+                                </span>
                         </label>
                     </li>
             </div>
