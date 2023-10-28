@@ -9,11 +9,13 @@
 }
 
 .modal-content {
+	width: 30vw;
+	height: 30vh;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	background-color: #fff;
+	background-color: #fffd9cbb;
 	padding: 20px;
 	border-radius: 5px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -25,4 +27,106 @@
 	right: 0;
 	padding: 10px;
 	cursor: pointer;
+}
+
+.greeting {
+	text-align: center;
+	font-family: "Roboto Mono", monospace;
+	margin: 2%;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.tareas {
+	width: 30vw;
+	height: 30vh;
+	position: absolute;
+	top: 20%;
+	margin: 0 auto;
+}
+
+input[type="checkbox"] {
+	display: none;
+}
+
+label {
+	background: #fff45c9a;
+	height: vh;
+	width: 100%;
+	display: block;
+	border-bottom: 0.2vh solid #2f3001;
+	color: rgb(0, 0, 0);
+	font-size: 0.7rem;
+	font-weight: 900;
+	cursor: pointer;
+	letter-spacing: 1%;
+	position: relative;
+	padding: 1% 2% 1% 20%;
+	box-sizing: border-box;
+}
+
+label h2 span {
+	display: block;
+	font-size: 0.6rem;
+	font-weight: 900;
+	color: #000000;
+	font-family: "Roboto Mono", monospace;
+}
+
+label:before {
+	content: "";
+	width: 1.8vw;
+	height: 2.6vh;
+	border: 1px solid #418262;
+	display: block;
+	position: absolute;
+	left: 5%;
+	top: 29%;
+	border-radius: 100%;
+	z-index: 99999;
+}
+
+label:after {
+	content: "";
+	width: 5vw;
+	height: 8vh;
+	background: #292e00;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#tarea-1:checked + label,
+#tarea-2:checked + label,
+#tarea-3:checked + label {
+	color: #000000ce;
+	background: #b3ff5c9a;
+	border-bottom: 0.1rem solid #c2a5007a;
+}
+#tarea-1:checked + label h2 span,
+#tarea-2:checked + label h2 span,
+#tarea-3:checked + label h2 span {
+	color: #3b1600;
+}
+
+#tarea-1:checked + label:before,
+#tarea-2:checked + label:before,
+#tarea-3:checked + label:before {
+	background-color: #9ebc1a;
+	border: 0.1rem solid white;
+}
+
+li:first-child label {
+	border-right: 0.5rem solid #ffcf33;
+}
+
+li:nth-child(2) label {
+	border-right: 0.5rem solid rgb(197, 56, 0);
+}
+
+li:nth-child(3) label {
+	border-right: 0.5rem solid #5c1c00;
 }
