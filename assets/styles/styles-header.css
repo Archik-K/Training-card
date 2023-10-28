@@ -1,0 +1,72 @@
+/*  Header */
+
+.header__container {
+    position: sticky;
+    -webkit-position: sticky;
+    top: 0;
+    display: grid;
+    width: 100%;
+
+    grid-template-columns: 15% 1fr;
+    grid-template-rows: 1fr;
+
+    background-color: #d17c53;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header__nav {
+    display: flex;
+    width: 100%;
+
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+.header__logo-link {
+
+    width: 75%;
+    justify-self: center;
+
+}
+
+.header__logo-img {
+
+    width: 100%;
+}
+
+.header__link {
+    margin: 5% 1% 5% 1%;
+    text-align: center;
+    text-wrap: nowrap;
+
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 500;
+    transition: width 1s;
+
+    color: #ebe2dd;
+
+}
+
+.header__nav a:after {
+    background-color: #ebd1a0;
+    /* Цвет линии при наведении на нее курсора мыши */
+    display: block;
+    content: "";
+    height: 2px;
+    /* Высота линии */
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+
+.header__link:hover:after,
+.header__link:focus:after {
+    width: 100%;
+}
