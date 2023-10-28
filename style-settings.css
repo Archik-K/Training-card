@@ -1,3 +1,26 @@
+body {
+    font-family: Roboto;
+
+}
+
+.main-container {
+    padding: 40px 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container_info{
+    padding: 10px 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 img {
     width: 10%;
 }
