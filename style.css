@@ -1,0 +1,14 @@
+.btn {
+  background: #36E1FF!important;
+  color: #fff!important;
+  border-color: #36E1FF!important;
+}
+
+.btn:hover {
+  background: #D28A51!important;
+  border-color: #D28A51!important;
+}
+
+.card-title {
+  color: #684B41;
+}
