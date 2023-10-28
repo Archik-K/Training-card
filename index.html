@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/normalize.css" />
     <link rel="stylesheet" href="/assets/footer.css" />
   </head>
   <body>
@@ -25,14 +32,23 @@
           <a href="https://zovpredkov.net/">Зов предков</a>
         </div>
         <div class="footer_subscribe">
-          <label class="footer_subscribe_label" for="mail">Наши новости</label>
-          <input class="footer_subscribe_input" type="email" id="mail" />
-          <button class="footer_subscribe_button" type="submit">
-            Подписаться
-          </button>
+          <form class="footer_subscribe_form" action="" method="post">
+            <label class="footer_subscribe_label" for="mail"
+              >Наши новости</label
+            >
+            <input
+              class="footer_subscribe_input"
+              placeholder="mymail@mail.com"
+              type="email"
+              id="mail"
+            />
+            <button class="footer_subscribe_button" type="submit">
+              Подписаться
+            </button>
+          </form>
         </div>
         <div class="footer_bottom">
-          &copy;"Свежая зелень"<br />все права защищены
+          <p>&copy;"Свежая зелень"<br />все права защищены</p>
         </div>
       </div>
     </footer>
