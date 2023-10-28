@@ -54,20 +54,11 @@ function thanks() {
 
     thank.classList.remove('hiddenSpan');
 }
-// function validateCreditCard(){
-//     let sixteen = /^\d{16}$/
-//     let validateInput  = document.querySelector('.credit').value
-//     console.log(validateInput)
-//     if (sixteen.test(validateInput) == false){
-//         alert("Please enter your 16 digit credit card numbers")};
-
-// }
 
 
 
-buttonCard.addEventListener('submit', function changeValues(event) {
+buttonCard.addEventListener('click', function changeValues(event) {
     event.preventDefault();
-    // validateCreditCard();
-    clearInputs(cardInputs);
+       clearInputs(cardInputs);
     thanks();
 })
