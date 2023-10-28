@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/styles/styles-header.css" />
-    <title>Study for save</title>
+
+ <link rel="stylesheet" href="assets/styles/styles-header.css" />
+    <link rel="stylesheet" href="./assets/normalize.css" />
+    <link rel="stylesheet" href="/assets/footer.css" />
+      <title>Study for save</title>
   </head>
   <body>
-    <header class="header__container">
+      <header class="header__container">
+
       <a href="#" class="header__logo-link">
         <img class="header__logo-img" src="./assets/images/logo.jpg" />
       </a>
@@ -27,6 +34,47 @@
         <a href="#" class="header__link">Техподдержка</a>
       </nav>
     </header>
+
+    
+    <footer class="footer">
+      <div class="footer_content">
+        <div class="foot_logo">
+          <p>study for save</p>
+        </div>
+        <div class="foot_links">
+          <a href="#">О нас</a><a href="">Настройки</a
+          ><a href="">Техподдержка</a>
+        </div>
+        <div class="footer_partners">
+          <h4>Наши партнеры</h4>
+          <a href="https://murkosha.ru/">Муркоша</a
+          ><a href="https://predannoeserdce.ru/">Преданное сердце</a
+          ><a href="https://iskracats.org/">Искра</a
+          ><a href="https://everydog-fund.ru/">Каждая собака</a>
+          <a href="https://zovpredkov.net/">Зов предков</a>
+        </div>
+        <div class="footer_subscribe">
+          <form class="footer_subscribe_form" action="" method="post">
+            <label class="footer_subscribe_label" for="mail"
+              >Наши новости</label
+            >
+            <input
+              class="footer_subscribe_input"
+              placeholder="mymail@mail.com"
+              type="email"
+              id="mail"
+            />
+            <button class="footer_subscribe_button" type="submit">
+              Подписаться
+            </button>
+          </form>
+        </div>
+        <div class="footer_bottom">
+          <p>&copy;"Свежая зелень"<br />все права защищены</p>
+        </div>
+      </div>
+    </footer>
+
   </body>
 
 </html>
