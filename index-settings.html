@@ -10,64 +10,70 @@
     <link rel="stylesheet" href="./assets/normalize.css" />
     <link rel="stylesheet" href="./style-settings.css">
     <title> Document</title>
-</head>
-<main>
-    <div class="main-container">
-        <h1> Настройки профиля</h1>
-        <div class="container_info">
-            <h2>Ваши данные</h2>
-            <img  class="image-person" src="./assets/images/person-profile.jpg" alt="person">
-            <span class="name">Екатерина Петрова </span>
-            <a href="#">developer@gmail.com</a>
-            <form  name="form-info" class="form-info" action="">
-                <div class="input-container">
-                    <h4>Ваше имя</h4>
-                    <input type="text" name="firstname" required id="userfirstname" placeholder="Введите Ваше имя"
-                        value="Екатерина">
-                </div>
-                <div class="input-container">
-                    <h4>Ваша фамилия</h4>
-                    <input type="text" name="secondname" required id="usersecondname" placeholder="Введите Вашу фамилию"
-                        value="Петрова">
-                </div>
-                <div class="input-container">
-                    <h4>Электронная почта</h4>
-                    <input type="email" name="email" required id="email" value="developer@gmail.com"
-                        placeholder="Введите Ваш e-mail">
-                </div>
-                <div class="input-container">
-                    <h4>Номер телефона</h4>
-                    <input type="number" name="phone" required id="mobilePhone" value="297775544">
-                </div>
-                <button  class=" form-button"  type="submit">Изменить данные</button>
-            </form>
-            <div class="container-pay">
-                <h2>Привязка карты</h2>
-                <form name="form-card" class="form-pay" action="POST">
-                    <div class="input-container input-container-first">
-                        <h4>Номер карты</h4>
-                        <input type="number" name="cardNumber" id="cardNumber" required placeholder="Введите номер карты">
-                    </div>
-                    <div class="input-container input-container-second">
-                        <h4>Срок действия</h4>
-                        <input type="number" name="cardLast" required id="cardLast" placeholder="Введите срок действия карты">
-                    </div>
-                    <div class="input-container input-container-third">
-                        <h4>CVC-код</h4>
 
-                        <input type="number" name="cardCode" required id="cardCode" placeholder="Введите СVC-код">
+</head>
+
+<body>
+    <main>
+        <div class="main-container">
+            <h1> Настройки профиля</h1>
+            <div class="container_info">
+                <h2>Ваши данные</h2>
+                <img class="image-person" src="./assets/images/person-profile.jpg" alt="person">
+                <span class="name">Екатерина Петрова </span>
+                <a class="email" href="#">developer@gmail.com</a>
+                <form name="form-info" class="form-info" action="">
+                    <div class="input-container">
+                        <h4>Ваше имя</h4>
+                        <input type="text"  class="firstName" name="firstname" required id="userfirstname" placeholder="Екатерина">
                     </div>
-                    <div class="input-container cashInput  ">
-                        <h4>Сумма пожертвования, $</h4>
-                        <input type="number" name="cash" required id="cash" placeholder="Введите сумму">
+                    <div class="input-container">
+                        <h4>Ваша фамилия</h4>
+                        <input type="text" class="secondName" name="secondname" required id="usersecondname"
+                            placeholder="Петрова">
                     </div>
-                    <button  class="submit"  type="submit">Привязать карту</button>
+                    <div class="input-container">
+                        <h4>Электронная почта</h4>
+                        <input type="email" name="email" required id="email" 
+                            placeholder="developer@gmail.com">
+                    </div>
+                    <div class="input-container">
+                        <h4>Номер телефона</h4>
+                        <input type="number" name="phone" required id="mobilePhone" placeholder="297775544">
+                    </div>
+                    <button class=" form-button "  type="submit">Изменить данные</button>
                 </form>
+                <div class="container-pay">
+                    <h2>Привязка карты</h2>
+                    <form name="form-card" class="form-pay" action="POST">
+                        <div class="input-container input-container-first">
+                            <h4>Номер карты</h4>
+                            <input type="number" name="cardNumber" id="cardNumber" required
+                                placeholder="Введите номер карты" minlength="16" maxlength="16">
+                        </div>
+                        <div class="input-container input-container-second">
+                            <h4>Срок действия</h4>
+                            <input type="number" name="cardLast" required minlength="4"id="cardLast"
+                                placeholder="Введите срок действия карты">
+                        </div>
+                        <div class="input-container input-container-third">
+                            <h4>CVC-код</h4>
+
+                            <input type="number" name="cardCode" minlength="3" required id="cardCode" placeholder="Введите СVC-код">
+                        </div>
+                        <div class="input-container cashInput  ">
+                            <h4>Сумма пожертвования, $</h4>
+                            <input type="number" name="cash" required id="cash" placeholder="Введите сумму">
+                        </div>
+                        <button class="submit" id="submitCard"  type="submit">Привязать карту</button>
+                    </form>
+                    <span class="hiddenSpan" >Спасибо за ваше участие в нашем социально-значимом проекте!</span>
+                </div>
             </div>
         </div>
-    </div>
-</main>
+    </main>
 
-<body></body>
+    <script src="./index-settings.js"></script>
+</body>
 
 </html>

@@ -109,6 +109,9 @@ grid-row: 4/5;
     grid-column: 1/2;
     height: 50%;
 }
+button:focus {
+    background-color: grey;
+}
 .container-pay {
     width: 100%;
     margin-top: 60px;
@@ -117,5 +120,12 @@ grid-row: 4/5;
 
 .name {
     font-size: 32px;
+    font-weight: 700;
+}
+input:focus{
+    border: 1px solid #000;
+}
+.hiddenSpan{
+    display: none;
     font-weight: 700;
 }
