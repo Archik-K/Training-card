@@ -1,14 +1,20 @@
 .btn {
-  background: #BACCE0!important;
+  background: #36E1FF!important;
   color: #fff!important;
-  border-color: #BACCE0!important;
+  border-color: #36E1FF!important;
 }
 
 .btn:hover {
-  background: #E9D29E!important;
-  border-color: #E9D29E!important;
+  background: #D28A51!important;
+  border-color: #D28A51!important;
 }
 
 .card-title {
-  color: #364236;
+  color: #684B41;
+}
+
+.page {
+  background-image: url("img/cat1.jpg");
+  background-repeat: no-repeat;
+  background-position: center left;
 }
