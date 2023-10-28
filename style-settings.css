@@ -37,7 +37,7 @@ a {
     display: flex;
     flex-direction: column;
     margin: 15px 0px;
-    gap: 5px;
+    gap: 10px;
     
 }
 input {
@@ -50,11 +50,18 @@ input {
     width: 20%;
     border-radius: 80%;
 }
+.container-pay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .form-pay  {
-    align-self: flex-start;
+    align-self: center;
     display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr;
-   grid-template-rows: 1fr 1fr  ;
+    
+   grid-template-columns: 1fr 1fr ;
+   grid-template-rows: 1fr 1fr 1fr 1fr ;
   
    gap: 15px;
 }
@@ -78,7 +85,8 @@ input {
     grid-column: 1/2;
 }
 .submit {
-padding: 10px 5px;
+    align-self: center;
+padding: 5px 5px;
 background-color: #F6825C;
 color: white;
 border: none;
@@ -86,9 +94,10 @@ border-radius: 10px;
 font-weight: 700;
 grid-row: 4/5;
     grid-column: 1/2;
+    height: 50%;
 }
 .container-pay {
     width: 100%;
-    margin-top: 40px;
+    margin-top: 60px;
     border-top: 1px solid rgb(190, 187, 187);
 }
