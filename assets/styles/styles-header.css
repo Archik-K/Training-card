@@ -5,12 +5,14 @@
     -webkit-position: sticky;
     top: 0;
     display: grid;
-    width: 100%;
+    width: 70vw;
+    padding: 0 15% 0 15%;
 
-    grid-template-columns: 15% 1fr;
+    grid-template-columns: 8% 1fr 1fr;
     grid-template-rows: 1fr;
 
-    background-color: #d17c53;
+    background-color: #30201c;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .sticky {
@@ -39,6 +41,14 @@
     width: 100%;
 }
 
+.header__h1 {
+    color: #ebd1a0;
+    letter-spacing: 3px;
+    text-decoration: none;
+
+    padding-left: 10%;
+}
+
 .header__link {
     margin: 5% 1% 5% 1%;
     text-align: center;
@@ -49,7 +59,7 @@
     font-weight: 500;
     transition: width 1s;
 
-    color: #ebe2dd;
+    color: #ebd1a0;
 
 }
 
@@ -69,4 +79,12 @@
 .header__link:hover:after,
 .header__link:focus:after {
     width: 100%;
+}
+
+.header__link:hover {
+    letter-spacing: 1px;
+}
+
+.header__link:hover {
+    transform: scale(1.03);
 }
