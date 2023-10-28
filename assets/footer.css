@@ -58,8 +58,7 @@
 .footer_bottom {
     grid-column: 1/4;
     grid-row: 3/4;
-    margin-top: 5%;
-    padding-bottom: 5%;
+    align-self: end;
     text-align: center;
     color: rgba(235, 209, 160, 0.5)
 }
