@@ -4,6 +4,9 @@ body {
 h4 {
     margin: 0px;
 }
+main {
+    background-color: #f3eba2d8;
+}
 .main-container {
     padding: 5% 3%;
     margin: 0% 20%;
