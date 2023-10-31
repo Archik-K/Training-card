@@ -126,6 +126,7 @@ const getCarta = (list) => {
 					top + 25
 				}px;'></div>
                  `;
+
 				if (index == all_count) {
 					if (index % 3 != 0)
 						box += `<img src='./assets/images/finish.png' class='finish'  alt='finish' style='left: ${
