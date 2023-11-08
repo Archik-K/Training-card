@@ -157,10 +157,10 @@
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[contributors-shield]: https://img.shields.io/badge/CONTRIBUTORS-6-%2330201c?style=for-the-badge&labelColor=%23ebd1a0&color=%2330201c
+[contributors-url]: https://github.com/Archik-K/Training-card/graphs/contributors
+[forks-shield]: https://img.shields.io/badge/FORKS-%23ebd1a0?style=for-the-badge&labelColor=%23ebd1a0
+[forks-url]: https://github.com/Archik-K/Training-card/forks
+[stars-shield]: https://img.shields.io/badge/STARS-%23ebd1a0?style=for-the-badge&labelColor=%23ebd1a0
+[stars-url]: https://github.com/Archik-K/Training-card/stargazers
 [product-screenshot]: ./assets/images/readme_img/product-name-screen-shot.png
