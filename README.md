@@ -84,6 +84,7 @@
     <img src="./assets/images/readme_img/HTML5_logo_and_wordmark.svg" alt="HTML5" width="100" height="90">
     <img src="./assets/images/readme_img/CSS3_logo_and_wordmark.svg" alt="CSS3" width="100" height="90">
     <img src="./assets/images/readme_img/Javascript-shield.svg" alt="JS" width="100" height="90">
+    <img src="./assets/images/readme_img/bootstrap-5-1.svg" alt="JS" width="100" height="70">
 </div>
 
 
