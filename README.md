@@ -128,7 +128,7 @@
 </div>
 
 Вы можете получить опыт использования сайта по ссылке 
-<a href="https://github.com/Archik-K/Training-card">Study for save
+<a href="https://archik-k.github.io/Training-card/">Study for save
   </a>
 
 
