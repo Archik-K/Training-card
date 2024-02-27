@@ -24,6 +24,7 @@ h4 {
 
 #card {
 	background-color: #5c1d00af;
+	width: 35em;
 }
 
 #text_card {
@@ -326,4 +327,71 @@ input:focus {
 	display: flex;
 	flex-direction: column;
 	position: relative;
+}
+
+@media screen and (max-width: 768px) {
+	.footer_content {
+		width: 90vw;
+		margin: 0 15% 0 10%;
+	}
+	.footer_subscribe_input {
+		width: 68%;
+		height: 1.5em;
+	}
+	.footer_subscribe_button {
+		width: 50%;
+		height: 2em;
+	}
+	.foot_logo p {
+		font-size: 1.5rem;
+	}
+	.btn {
+		font-size: 1em;
+	}
+	#text_card {
+		width: 12em;
+	}
+	#card {
+		width: 25em;
+	}
+	.header__link {
+		font-size: 1em;
+	}
+	.header__nav {
+		margin: 0 0 0 12%;
+		display: flex;
+		width: 93%;
+		justify-content: flex-end;
+		justify-items: center;
+	}
+	.header__container {
+		align-items: center;
+	}
+	.header__h1 {
+		font-size: 1.3em;
+	}
+	.header__logo-img {
+		width: 105%;
+	}
+	/* стили для планшета */
+}
+@media screen and (max-width: 425px) {
+	/* стили для широкого смартфона */
+}
+@media screen and (max-width: 375px) {
+	/* стили для среднего смартфона */
+}
+@media screen and (max-width: 320px) {
+	.foot_links > a,
+	.footer_partners > a {
+		font-size: 10px;
+	}
+	p {
+		font-size: 12px;
+	}
+	.header__link {
+		font-size: 1px;
+	}
+
+	/* стили для малого смартфона */
 }
