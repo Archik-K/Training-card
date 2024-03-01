@@ -515,7 +515,7 @@ input:focus {
 		font-size: 1.1em;
 	}
 	.header__container {
-		grid-template-columns: 18% 2fr 1fr;
+		grid-template-columns: 17% 2fr 1fr;
 	}
 }
 
