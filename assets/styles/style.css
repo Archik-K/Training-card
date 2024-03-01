@@ -512,7 +512,7 @@ input:focus {
 		left: 86%;
 	}
 	.header__h1 {
-		font-size: 1.2em;
+		font-size: 1.1em;
 	}
 	.header__container {
 		grid-template-columns: 18% 2fr 1fr;
