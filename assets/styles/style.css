@@ -512,7 +512,62 @@ input:focus {
 }
 
 @media screen and (max-width: 375px) {
-	/* стили для среднего смартфона */
+	.menu-wrap {
+		top: 4px;
+		left: 81%;
+	} /* стили для среднего смартфона */
+	.header__container {
+		grid-template-columns: 21% 2fr 1fr;
+	}
+	.header__h1 {
+		font-size: 1em;
+	}
+	.header__logo-img {
+		width: 91%;
+	}
+	#card {
+		width: 18em;
+	}
+	h3 {
+		font-size: calc(1.1rem + 0.6vw);
+	}
+	#text_card {
+		width: 10em;
+	}
+	.mt-3 {
+		margin-top: 2rem !important;
+	}
+	.footer_partners > h4,
+	.footer_subscribe_label {
+		font-size: 3vw;
+	}
+	.foot_links > a,
+	.footer_partners > a {
+		font-size: 3vw;
+	}
+	.footer_subscribe_button {
+		width: 68%;
+		height: 1.5em;
+		font-size: 2.5vw;
+	}
+	.footer_partners {
+		margin-bottom: 10%;
+	}
+	.footer_bottom {
+		font-size: 10px;
+	}
+	.footer_subscribe_input {
+		width: 84%;
+		height: 1.5em;
+		font-size: 0.6em;
+	}
+	.footer_content {
+		width: 95vw;
+		margin: 0 4% 0 4%;
+	}
+	ul {
+		padding-left: 0rem;
+	}
 }
 
 @media screen and (max-width: 320px) {
@@ -574,6 +629,22 @@ input:focus {
 	.menu-wrap {
 		top: 8px;
 		left: 83%;
+	}
+	#card {
+		width: 16em;
+	}
+	#text_card {
+		width: 10em;
+	}
+	.h3,
+	h3 {
+		font-size: calc(1rem + 0.6vw);
+	}
+	.mt-3 {
+		margin-top: 2rem !important;
+	}
+	ul {
+		padding-left: 0rem;
 	}
 	/* стили для малого смартфона */
 }
