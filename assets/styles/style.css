@@ -585,7 +585,7 @@ input:focus {
 		grid-template-columns: 21% 2fr 1fr;
 	}
 	.header__h1 {
-		font-size: 1em;
+		font-size: 0.9em;
 	}
 	.header__logo-img {
 		width: 91%;
