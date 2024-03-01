@@ -507,6 +507,18 @@ input:focus {
 	/* стили для планшета */
 }
 
+@media (min-width: 426px) and (max-width: 767px) {
+	.menu-wrap {
+		left: 86%;
+	}
+	.header__h1 {
+		font-size: 1.2em;
+	}
+	.header__container {
+		grid-template-columns: 18% 2fr 1fr;
+	}
+}
+
 @media screen and (max-width: 425px) {
 	.menu-wrap {
 		left: 83%;
