@@ -1,64 +1,56 @@
-let email = document.querySelector('.email')
+let email = document.querySelector(".email");
 
-let username = document.querySelector('.name')
-let emailInput = document.getElementById('email')
+let username = document.querySelector(".name");
+let emailInput = document.getElementById("email");
 function changeInfo() {
-    if (emailInput.value !== '') {
-        email.textContent = emailInput.value;
-    }
-    else (alert("заполните форму"))
+	if (emailInput.value !== "") {
+		email.textContent = emailInput.value;
+	} else alert("заполните форму");
 }
-let inputs = document.querySelectorAll('.form-info > div > input');
+let inputs = document.querySelectorAll(".form-info > div > input");
 function clearInputs(inputs) {
-    for (i = 0; i < inputs.length; i++) {
-        inputs[i].value = '';
-    }
+	for (i = 0; i < inputs.length; i++) {
+		inputs[i].value = "";
+	}
 }
 
 function createName() {
-    let firstName = document.querySelector('.firstName');
-    let secondName = document.querySelector('.secondName')
-    let name = [];
-    name.push(firstName.value);
-    name.push(secondName.value);
-    name = name.join(' ')
-    return name
-
+	let firstName = document.querySelector(".firstName");
+	let secondName = document.querySelector(".secondName");
+	let name = [];
+	name.push(firstName.value);
+	name.push(secondName.value);
+	name = name.join(" ");
+	return name;
 }
 function changeName() {
-    let nameInput = document.querySelector('.name')
+	let nameInput = document.querySelector(".name");
 
-    let newName = createName();
-    if (newName !== '') {
-        nameInput.textContent = newName
-    }
-    else (alert("заполните форму"))
+	let newName = createName();
+	if (newName !== "") {
+		nameInput.textContent = newName;
+	} else alert("заполните форму");
 }
 
-let buttonInfo = document.querySelector('.form-button');
-buttonInfo.addEventListener('click', function changeInformation(event) {
-    event.preventDefault();
-    changeInfo();
-    changeName();
-    clearInputs(inputs);
+let buttonInfo = document.querySelector(".form-button");
+buttonInfo.addEventListener("click", function changeInformation(event) {
+	event.preventDefault();
+	changeInfo();
+	changeName();
+	clearInputs(inputs);
+});
 
-})
-
-
-
-let buttonCard = document.querySelector('#submitCard');
-let cardInputs = document.querySelectorAll(('.form-pay > div > input'))
+let buttonCard = document.querySelector("#submitCard");
+let cardInputs = document.querySelectorAll(".form-pay > div > input");
 
 function thanks() {
-    let thank = document.querySelector('.hiddenSpan');
+	let thank = document.querySelector(".hiddenSpan");
 
-    thank.classList.remove('hiddenSpan');
+	thank.classList.remove("hiddenSpan");
 }
 
-
-
-buttonCard.addEventListener('click', function changeValues(event) {
-    event.preventDefault();
-       clearInputs(cardInputs);
-    thanks();
-})
+buttonCard.addEventListener("click", function changeValues(event) {
+	event.preventDefault();
+	clearInputs(cardInputs);
+	thanks();
+});
