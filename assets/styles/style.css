@@ -517,6 +517,117 @@ input:focus {
 	.header__container {
 		grid-template-columns: 17% 2fr 1fr;
 	}
+	#card {
+		width: 16em;
+	}
+	#text_card {
+		width: 10em;
+	}
+	.h3,
+	h3 {
+		font-size: calc(1rem + 0.6vw);
+	}
+	.mt-3 {
+		margin-top: 2rem !important;
+	}
+	ul {
+		padding-left: 0rem;
+	}
+	.step {
+		width: 45px;
+		height: 45px;
+	}
+	div[id="line_2"] {
+		left: 110px !important;
+	}
+	div[id="line_3"] {
+		left: 167px !important;
+	}
+	div[id="line_4"],
+	div[id="line_9"],
+	div[id="line_10"] {
+		left: 195px !important;
+	}
+	div[id="line_5"],
+	div[id="line_8"],
+	div[id="line_11"] {
+		left: 119px !important;
+	}
+	button[id="1"],
+	button[id="7"] {
+		/* Новые стили */
+		left: 10px !important;
+	}
+	button[id="2"] {
+		/* Новые стили */
+		left: 85px !important;
+	}
+	button[id="3"],
+	button[id="5"],
+	button[id="9"],
+	button[id="11"] {
+		/* Новые стили */
+		left: 160px !important;
+	}
+	button[id="4"],
+	button[id="10"] {
+		/* Новые стили */
+		left: 233px !important;
+	}
+	button[id="6"],
+	button[id="12"],
+	button[id="8"] {
+		/* Новые стили */
+		left: 84px !important;
+	}
+	div[id="dugaRight_0"] {
+		left: 200px !important;
+		top: 24px !important;
+		width: 82px !important;
+		height: 105px !important;
+	}
+	div[id="dugaRight_2"] {
+		left: 200px !important;
+		top: 223px !important;
+		width: 82px !important;
+		height: 105px !important;
+	}
+	.main_carta {
+		position: relative;
+		top: 73px;
+	}
+	.modal-content {
+		width: 82vw;
+		height: 57vh;
+	}
+	.tareas {
+		width: 64vw;
+		height: 30vh;
+		margin: 1% 5% 0% 1%;
+	}
+	.h2_title {
+		display: block;
+		font-size: 0.8rem;
+	}
+	.label_1,
+	.label_2,
+	.label_3 {
+		height: 12vh;
+		width: 107%;
+	}
+	.label_1:after,
+	.label_2:after,
+	.label_3:after {
+		height: 12vh;
+	}
+	.label_1:before,
+	.label_2:before,
+	.label_3:before {
+		width: 15px;
+		height: 15px;
+		left: 10%;
+		top: 19%;
+	}
 }
 
 @media screen and (max-width: 425px) {
@@ -572,6 +683,101 @@ input:focus {
 	.footer_content {
 		width: 95vw;
 		margin: 0 4% 0 4%;
+	}
+	.step {
+		width: 45px;
+		height: 45px;
+	}
+	div[id="line_2"] {
+		left: 110px !important;
+	}
+	div[id="line_3"] {
+		left: 167px !important;
+	}
+	div[id="line_4"],
+	div[id="line_9"],
+	div[id="line_10"] {
+		left: 195px !important;
+	}
+	div[id="line_5"],
+	div[id="line_8"],
+	div[id="line_11"] {
+		left: 119px !important;
+	}
+	button[id="1"],
+	button[id="7"] {
+		/* Новые стили */
+		left: 10px !important;
+	}
+	button[id="2"] {
+		/* Новые стили */
+		left: 85px !important;
+	}
+	button[id="3"],
+	button[id="5"],
+	button[id="9"],
+	button[id="11"] {
+		/* Новые стили */
+		left: 160px !important;
+	}
+	button[id="4"],
+	button[id="10"] {
+		/* Новые стили */
+		left: 233px !important;
+	}
+	button[id="6"],
+	button[id="12"],
+	button[id="8"] {
+		/* Новые стили */
+		left: 84px !important;
+	}
+	div[id="dugaRight_0"] {
+		left: 200px !important;
+		top: 24px !important;
+		width: 82px !important;
+		height: 105px !important;
+	}
+	div[id="dugaRight_2"] {
+		left: 200px !important;
+		top: 223px !important;
+		width: 82px !important;
+		height: 105px !important;
+	}
+	.main_carta {
+		position: relative;
+		top: 73px;
+	}
+	.modal-content {
+		width: 82vw;
+		height: 57vh;
+	}
+	.tareas {
+		width: 64vw;
+		height: 30vh;
+		margin: 1% 5% 0% 1%;
+	}
+	.h2_title {
+		display: block;
+		font-size: 0.8rem;
+	}
+	.label_1,
+	.label_2,
+	.label_3 {
+		height: 12vh;
+		width: 107%;
+	}
+	.label_1:after,
+	.label_2:after,
+	.label_3:after {
+		height: 12vh;
+	}
+	.label_1:before,
+	.label_2:before,
+	.label_3:before {
+		width: 15px;
+		height: 15px;
+		left: 10%;
+		top: 19%;
 	}
 	/* стили для широкого смартфона */
 }
@@ -632,6 +838,102 @@ input:focus {
 	}
 	ul {
 		padding-left: 0rem;
+	}
+
+	.step {
+		width: 45px;
+		height: 45px;
+	}
+	div[id="line_2"] {
+		left: 110px !important;
+	}
+	div[id="line_3"] {
+		left: 167px !important;
+	}
+	div[id="line_4"],
+	div[id="line_9"],
+	div[id="line_10"] {
+		left: 195px !important;
+	}
+	div[id="line_5"],
+	div[id="line_8"],
+	div[id="line_11"] {
+		left: 119px !important;
+	}
+	button[id="1"],
+	button[id="7"] {
+		/* Новые стили */
+		left: 10px !important;
+	}
+	button[id="2"] {
+		/* Новые стили */
+		left: 85px !important;
+	}
+	button[id="3"],
+	button[id="5"],
+	button[id="9"],
+	button[id="11"] {
+		/* Новые стили */
+		left: 160px !important;
+	}
+	button[id="4"],
+	button[id="10"] {
+		/* Новые стили */
+		left: 233px !important;
+	}
+	button[id="6"],
+	button[id="12"],
+	button[id="8"] {
+		/* Новые стили */
+		left: 84px !important;
+	}
+	div[id="dugaRight_0"] {
+		left: 200px !important;
+		top: 24px !important;
+		width: 82px !important;
+		height: 105px !important;
+	}
+	div[id="dugaRight_2"] {
+		left: 200px !important;
+		top: 223px !important;
+		width: 82px !important;
+		height: 105px !important;
+	}
+	.main_carta {
+		position: relative;
+		top: 73px;
+	}
+	.modal-content {
+		width: 82vw;
+		height: 57vh;
+	}
+	.tareas {
+		width: 64vw;
+		height: 30vh;
+		margin: 1% 5% 0% 1%;
+	}
+	.h2_title {
+		display: block;
+		font-size: 0.8rem;
+	}
+	.label_1,
+	.label_2,
+	.label_3 {
+		height: 12vh;
+		width: 107%;
+	}
+	.label_1:after,
+	.label_2:after,
+	.label_3:after {
+		height: 12vh;
+	}
+	.label_1:before,
+	.label_2:before,
+	.label_3:before {
+		width: 15px;
+		height: 15px;
+		left: 10%;
+		top: 19%;
 	}
 }
 
@@ -710,6 +1012,101 @@ input:focus {
 	}
 	ul {
 		padding-left: 0rem;
+	}
+	.step {
+		width: 45px;
+		height: 45px;
+	}
+	div[id="line_2"] {
+		left: 110px !important;
+	}
+	div[id="line_3"] {
+		left: 167px !important;
+	}
+	div[id="line_4"],
+	div[id="line_9"],
+	div[id="line_10"] {
+		left: 195px !important;
+	}
+	div[id="line_5"],
+	div[id="line_8"],
+	div[id="line_11"] {
+		left: 119px !important;
+	}
+	button[id="1"],
+	button[id="7"] {
+		/* Новые стили */
+		left: 10px !important;
+	}
+	button[id="2"] {
+		/* Новые стили */
+		left: 85px !important;
+	}
+	button[id="3"],
+	button[id="5"],
+	button[id="9"],
+	button[id="11"] {
+		/* Новые стили */
+		left: 160px !important;
+	}
+	button[id="4"],
+	button[id="10"] {
+		/* Новые стили */
+		left: 233px !important;
+	}
+	button[id="6"],
+	button[id="12"],
+	button[id="8"] {
+		/* Новые стили */
+		left: 84px !important;
+	}
+	div[id="dugaRight_0"] {
+		left: 200px !important;
+		top: 24px !important;
+		width: 82px !important;
+		height: 105px !important;
+	}
+	div[id="dugaRight_2"] {
+		left: 200px !important;
+		top: 223px !important;
+		width: 82px !important;
+		height: 105px !important;
+	}
+	.main_carta {
+		position: relative;
+		top: 73px;
+	}
+	.modal-content {
+		width: 82vw;
+		height: 57vh;
+	}
+	.tareas {
+		width: 64vw;
+		height: 30vh;
+		margin: 1% 5% 0% 1%;
+	}
+	.h2_title {
+		display: block;
+		font-size: 0.8rem;
+	}
+	.label_1,
+	.label_2,
+	.label_3 {
+		height: 12vh;
+		width: 107%;
+	}
+	.label_1:after,
+	.label_2:after,
+	.label_3:after {
+		height: 12vh;
+	}
+	.label_1:before,
+	.label_2:before,
+	.label_3:before {
+		width: 15px;
+		height: 15px;
+		left: 10%;
+		top: 19%;
 	}
 	/* стили для малого смартфона */
 }

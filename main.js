@@ -61,7 +61,6 @@ let tasksFront = [
 		isDone: false,
 	},
 ];
-
 let main_carta = document.querySelector(".main_carta");
 
 const getCarta = (list) => {
@@ -86,12 +85,12 @@ const getCarta = (list) => {
 				left = 100 * j + 100 * (i % 2);
 				console.log(left + " " + top + " " + index);
 				box += `
-                <button class='step' style='left: ${left}px; top: ${top}px;'  ${
+                <button class='step one_step' style='left: ${left}px; top: ${top}px;'  ${
 					list[index - 1].isDone ? "disabled" : ""
 				} id='${index}' onclick='handleClick(event)'>${index}</button>
-                <div class="line" style='left: ${left + 50}px; top: ${
-					top + 25
-				}px;'></div>
+                <div class="line one_line" id='line_${index}' style='left: ${
+					left + 50
+				}px; top: ${top + 25}px;'></div>
                 `;
 				if (index == all_count) {
 					if (index % 3 != 0)
@@ -105,7 +104,7 @@ const getCarta = (list) => {
 				}
 			}
 			if (!flag)
-				box += `<div class="dugaRight" style='left: ${250}px; top: ${
+				box += `<div class="dugaRight" id='dugaRight_${i}' style='left: ${250}px; top: ${
 					100 * i + 25
 				}px;'></div>`;
 		} else {
@@ -119,12 +118,12 @@ const getCarta = (list) => {
 				left = 100 * j + 100 * (i % 2);
 				console.log(left + " " + top + " " + index + " " + j);
 				box += `
-                <button class='step' style='left: ${left}px; top: ${top}px;'  ${
+                <button class='step two_step' style='left: ${left}px; top: ${top}px;'  ${
 					list[index - 1].isDone ? "disabled" : ""
 				} id='${index}' onclick='handleClick(event)'>${index}</button>
-                <div class="line" style='left: ${left - 50}px; top: ${
-					top + 25
-				}px;'></div>
+                <div class="line two_line" id='line_${index}' style='left: ${
+					left - 50
+				}px; top: ${top + 25}px;'></div>
                  `;
 
 				if (index == all_count) {
@@ -174,7 +173,6 @@ const isFinish = () => {
 		happy.innerHTML += `<h2 class='happy' style='left: ${0}%; top: 0px;'>Вы - молодец!</h2>`;
 	}
 };
-
 /// Arina modal window
 
 const closeModalBtn = document.getElementById("closeModalBtn");
