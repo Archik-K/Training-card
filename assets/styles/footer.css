@@ -1,115 +1,279 @@
 .footer {
-    background-color: #30201c;
+	background-color: #30201c;
 }
 
 .footer_content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 20% 60% 20%;
-    font-family: 'Roboto Mono', monospace;
-    color: #ebd1a0;
-    width: 70vw;
-    margin: 0 15% 0 15%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 20% 60% 20%;
+	font-family: "Roboto Mono", monospace;
+	color: #ebd1a0;
+	width: 70vw;
+	margin: 0 15% 0 15%;
 }
 
 .foot_logo {
-    grid-column: 1/4;
-    grid-row: 1/2;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
+	grid-column: 1/4;
+	grid-row: 1/2;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
 }
 
 .foot_links {
-    grid-column: 1/2;
-    grid-row: 2/3;
-    margin-top: 10%;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
+	grid-column: 1/2;
+	grid-row: 2/3;
+	margin-top: 10%;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
 }
 
 .footer_partners {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    margin-top: 10%;
-    margin-bottom: 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
+	grid-column: 2/3;
+	grid-row: 2/3;
+	margin-top: 10%;
+	margin-bottom: 5%;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
 }
 
 .footer_subscribe {
-    grid-column: 3/4;
-    grid-row: 2/3;
-    margin-top: 10%;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
+	grid-column: 3/4;
+	grid-row: 2/3;
+	margin-top: 10%;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
 }
 
 .footer_subscribe_form {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
 }
 
 .footer_bottom {
-    grid-column: 1/4;
-    grid-row: 3/4;
-    align-self: end;
-    text-align: center;
-    color: rgba(235, 209, 160, 0.5)
+	grid-column: 1/4;
+	grid-row: 3/4;
+	align-self: end;
+	text-align: center;
+	color: rgba(235, 209, 160, 0.5);
 }
 
-.foot_links>a, .footer_partners>a {
-    display: inline-block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    text-decoration: none;
-    outline: none;
-    color: rgba(235, 209, 160, 1);
+.foot_links > a,
+.footer_partners > a {
+	display: inline-block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	text-decoration: none;
+	outline: none;
+	color: rgba(235, 209, 160, 1);
 }
 
-.footer_partners>h4, .footer_subscribe_label {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+.footer_partners > h4,
+.footer_subscribe_label {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 }
 
 .footer_subscribe_input {
-    width: 60%;
-    height: 2.5em;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    padding-left: 2%;
-    border: none;
-    background-color: rgba(235, 209, 160, 1);
-    border-radius: 4px;
+	width: 60%;
+	height: 2.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	padding-left: 2%;
+	border: none;
+	background-color: rgba(235, 209, 160, 1);
+	border-radius: 4px;
 }
 
 .footer_subscribe_button {
-    width: 40%;
-    height: 2.5em;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-    border: none;
-    border-radius: 4px;
-    background-color:  #ebd1a0;
-    font-size: 80%;
-    color: #30201c;
-    font-weight: bold;
+	width: 40%;
+	height: 2.5em;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	border: none;
+	border-radius: 4px;
+	background-color: #ebd1a0;
+	font-size: 80%;
+	color: #30201c;
+	font-weight: bold;
 }
 
 .foot_logo p {
-    display: inline-block;
-    font-size: 2rem;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    text-transform: uppercase;
-    font-weight: 800;
+	display: inline-block;
+	font-size: 2rem;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	text-transform: uppercase;
+	font-weight: 800;
 }
 
 .footer_subscribe_input::placeholder {
-    color: rgb(54, 64, 65);
+	color: rgb(54, 64, 65);
+}
+
+@media screen and (max-width: 768px) {
+	.footer_content {
+		width: 90vw;
+		margin: 0 15% 0 10%;
+	}
+	.footer_subscribe_input {
+		width: 68%;
+		height: 1.5em;
+	}
+	.footer_subscribe_button {
+		width: 50%;
+		height: 2em;
+	}
+	.foot_logo p {
+		font-size: 1rem;
+	}
+	/* стили для планшета */
+}
+
+@media (min-width: 426px) and (max-width: 767px) {
+	h3 {
+		font-size: calc(1rem + 0.6vw);
+	}
+	.mt-3 {
+		margin-top: 2rem !important;
+	}
+	ul {
+		padding-left: 0rem;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	ul {
+		padding-left: 0rem;
+	}
+	.mt-3 {
+		margin-top: 2rem !important;
+	}
+	.footer_partners > h4,
+	.footer_subscribe_label {
+		font-size: 3vw;
+	}
+	.foot_links > a,
+	.footer_partners > a {
+		font-size: 3vw;
+	}
+	.footer_subscribe_button {
+		width: 55%;
+		height: 1.5em;
+		font-size: 2.1vw;
+	}
+	.footer_partners {
+		margin-bottom: 10%;
+	}
+	.footer_bottom {
+		font-size: 10px;
+	}
+	.footer_subscribe_input {
+		width: 72%;
+		height: 1.5em;
+		font-size: 0.6em;
+	}
+	.footer_content {
+		width: 95vw;
+		margin: 0 4% 0 4%;
+	}
+	/* стили для широкого смартфона */
+}
+
+@media screen and (max-width: 375px) {
+	.mt-3 {
+		margin-top: 2rem !important;
+	}
+	.footer_partners > h4,
+	.footer_subscribe_label {
+		font-size: 3vw;
+	}
+	.foot_links > a,
+	.footer_partners > a {
+		font-size: 3vw;
+	}
+	.footer_subscribe_button {
+		width: 68%;
+		height: 1.5em;
+		font-size: 2.5vw;
+	}
+	.footer_partners {
+		margin-bottom: 10%;
+	}
+	.footer_bottom {
+		font-size: 10px;
+	}
+	.footer_subscribe_input {
+		width: 84%;
+		height: 1.5em;
+		font-size: 0.6em;
+	}
+	.footer_content {
+		width: 95vw;
+		margin: 0 4% 0 4%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	h1 {
+		font-size: 1.5em;
+	}
+	.main-container {
+		padding: 5% 3%;
+		margin: 0% 1%;
+		width: 90%;
+	}
+	.container_info {
+		width: 90%;
+	}
+	.name {
+		font-size: 21px;
+	}
+	.foot_links > a,
+	.footer_partners > a {
+		font-size: 10px;
+	}
+	.foot_logo p {
+		font-size: 1rem !important;
+	}
+	.header__link {
+		font-size: 1em;
+	}
+	.footer_partners > h4,
+	.footer_subscribe_label {
+		font-size: 13px;
+	}
+	.foot_links,
+	.footer_partners,
+	.footer_subscribe {
+		margin-top: 0%;
+	}
+	.footer_content {
+		width: 95vw;
+		margin: 0 1% 0 3%;
+	}
+	.footer_subscribe_button {
+		width: 91%;
+		height: 1.5em;
+		font-size: 0.5em;
+	}
+	.footer_subscribe_input {
+		width: 95%;
+		height: 0.7em !important;
+		font-size: 0.5em !important;
+	}
+	.foot_links {
+		width: 30vw;
+	}
+	.footer_content {
+		grid-template-columns: 1fr 2fr 1fr;
+	}
+	/* стили для малого смартфона */
+}
+@media (max-width: 319px) {
 }

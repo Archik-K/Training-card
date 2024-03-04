@@ -468,21 +468,6 @@ input:focus {
 		text-decoration: none;
 		transition: color 0.4s ease;
 	}
-	.footer_content {
-		width: 90vw;
-		margin: 0 15% 0 10%;
-	}
-	.footer_subscribe_input {
-		width: 68%;
-		height: 1.5em;
-	}
-	.footer_subscribe_button {
-		width: 50%;
-		height: 2em;
-	}
-	.foot_logo p {
-		font-size: 1rem;
-	}
 	.btn {
 		font-size: 1em;
 	}
@@ -523,7 +508,6 @@ input:focus {
 	#text_card {
 		width: 10em;
 	}
-	.h3,
 	h3 {
 		font-size: calc(1rem + 0.6vw);
 	}
@@ -631,6 +615,35 @@ input:focus {
 }
 
 @media screen and (max-width: 425px) {
+	.form-info,
+	.form-pay {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-items: center;
+		gap: 4px;
+	}
+	input {
+		width: 60vw;
+		font-size: 0.7em;
+	}
+	.input-container {
+		align-items: center;
+	}
+	h1 {
+		font-size: 1.5em;
+	}
+	.main-container {
+		padding: 5% 3%;
+		margin: 0% 1%;
+		width: 90%;
+	}
+	.container_info {
+		width: 90%;
+	}
+	.name {
+		font-size: 21px;
+	}
 	.menu-wrap {
 		left: 83%;
 		top: 4px;
@@ -655,34 +668,6 @@ input:focus {
 	}
 	.mt-3 {
 		margin-top: 2rem !important;
-	}
-	.footer_partners > h4,
-	.footer_subscribe_label {
-		font-size: 3vw;
-	}
-	.foot_links > a,
-	.footer_partners > a {
-		font-size: 3vw;
-	}
-	.footer_subscribe_button {
-		width: 55%;
-		height: 1.5em;
-		font-size: 2.1vw;
-	}
-	.footer_partners {
-		margin-bottom: 10%;
-	}
-	.footer_bottom {
-		font-size: 10px;
-	}
-	.footer_subscribe_input {
-		width: 72%;
-		height: 1.5em;
-		font-size: 0.6em;
-	}
-	.footer_content {
-		width: 95vw;
-		margin: 0 4% 0 4%;
 	}
 	.step {
 		width: 45px;
@@ -783,6 +768,35 @@ input:focus {
 }
 
 @media screen and (max-width: 375px) {
+	.form-info,
+	.form-pay {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-items: center;
+		gap: 4px;
+	}
+	input {
+		width: 60vw;
+		font-size: 0.7em;
+	}
+	.input-container {
+		align-items: center;
+	}
+	h1 {
+		font-size: 1.5em;
+	}
+	.main-container {
+		padding: 5% 3%;
+		margin: 0% 1%;
+		width: 90%;
+	}
+	.container_info {
+		width: 90%;
+	}
+	.name {
+		font-size: 21px;
+	}
 	.menu-wrap {
 		top: 4px;
 		left: 81%;
@@ -808,38 +822,9 @@ input:focus {
 	.mt-3 {
 		margin-top: 2rem !important;
 	}
-	.footer_partners > h4,
-	.footer_subscribe_label {
-		font-size: 3vw;
-	}
-	.foot_links > a,
-	.footer_partners > a {
-		font-size: 3vw;
-	}
-	.footer_subscribe_button {
-		width: 68%;
-		height: 1.5em;
-		font-size: 2.5vw;
-	}
-	.footer_partners {
-		margin-bottom: 10%;
-	}
-	.footer_bottom {
-		font-size: 10px;
-	}
-	.footer_subscribe_input {
-		width: 84%;
-		height: 1.5em;
-		font-size: 0.6em;
-	}
-	.footer_content {
-		width: 95vw;
-		margin: 0 4% 0 4%;
-	}
 	ul {
 		padding-left: 0rem;
 	}
-
 	.step {
 		width: 45px;
 		height: 45px;
@@ -938,44 +923,34 @@ input:focus {
 }
 
 @media screen and (max-width: 320px) {
-	.foot_links > a,
-	.footer_partners > a {
-		font-size: 10px;
+	.form-info,
+	.form-pay {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-items: center;
+		gap: 4px;
 	}
-	p {
-		font-size: 12px;
+	input {
+		width: 60vw;
+		font-size: 0.7em;
 	}
-	.header__link {
-		font-size: 1em;
+	.input-container {
+		align-items: center;
 	}
-	.footer_partners > h4,
-	.footer_subscribe_label {
-		font-size: 13px;
+	h1 {
+		font-size: 1.5em;
 	}
-	.foot_links,
-	.footer_partners,
-	.footer_subscribe {
-		margin-top: 0%;
+	.main-container {
+		padding: 5% 3%;
+		margin: 0% 1%;
+		width: 90%;
 	}
-	.footer_content {
-		width: 95vw;
-		margin: 0 1% 0 3%;
+	.container_info {
+		width: 90%;
 	}
-	.footer_subscribe_button {
-		width: 91%;
-		height: 1.5em;
-		font-size: 0.5em;
-	}
-	.footer_subscribe_input {
-		width: 95%;
-		height: 1.5em;
-		font-size: 0.6em;
-	}
-	.foot_links {
-		width: 30vw;
-	}
-	.footer_content {
-		grid-template-columns: 1fr 2fr 1fr;
+	.name {
+		font-size: 21px;
 	}
 	.burger-menu-content.show {
 		display: block;
