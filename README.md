@@ -145,7 +145,7 @@
 
 Ирина - [GitHub](https://github.com/BarhatovaIrina)
 
-Алёна - [GitHub](https://github.com/bearcubbb)
+Алёна - [GitHub](https://github.com/nika-siren)
 
 Татьяна - [GitHub](https://github.com/KruTatiana)
 
